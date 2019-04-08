@@ -1,0 +1,137 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Intuit Accounts - Sign Up</title>
+    <!-- <link rel="icon" href="image/youtube.png" type="image/png"> -->
+    <meta name="author" content="Antonio Marcos Castelo de Carvalho">
+    <meta name="description" content="Intuit signup page clone for study.">
+    <meta name="keywords" content="HTML5, CSS3"> 
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <!-- [if lt IE 9]>
+        <script src="js/html5shiv.js"></script>
+    <![endif] -->
+</head>
+<body>
+    
+    <nav>
+
+        <section>
+            <div class="display-flex">
+                <p>Already have an Intuit account?</p>
+                <a href="#" class="link">I forgot my User ID or Password</a>
+            </div>
+            <div>
+                <button><span class="icon-lock-img"></span> Sign In</button>
+            </div>
+        </section>
+
+    </nav>
+
+    <header id="icons">
+        <img src="images/logo-intuit.png" alt="Intuit logo" width="118" height="35">
+        <section>
+            <ul>
+                <li>
+                    <a href="#" class="link">
+                        <img src="images/mint-icon.svg" alt="Mint Icon" width="23" height="23">
+                        <img src="images/mint.svg" alt="Mint" width="37" height="20">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="link">
+                        <img src="images/quickbooks-icon.svg" alt="Mint Icon" width="23" height="23">
+                        <img src="images/quickbooks.svg" alt="Mint" height="22">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="link">
+                        <img src="images/turbotax-icon.svg" alt="Mint Icon" width="23" height="23">
+                        <img src="images/turbotax.svg" alt="Mint" height="17">
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </header>
+
+    <main>
+
+        <header id="header-form">
+            <section>
+                <h1>One Account.</h1>
+                <h1>Everything Intuit.</h1> 
+            </section>
+            <div>
+                Create an account for all of 
+                Intuit's products <br> including Mint.
+                <a href="#" class="link">Learn more</a> 
+            </div>
+        </header>
+
+        <form action="POST">
+            <fieldset class="pb-1">
+                <label for="email">Email address</label>
+                <div class="input-form">
+                    <input type="text" name="email" required>
+                </div>
+            </fieldset>
+
+            <fieldset class="pb-2">
+                <label for="phone">Phone (recommended)</label>
+                <div class="input-form">
+                    <input type="tel" name="phone">
+                </div>
+                <div class="div-span">
+                    <span>Standard call, messaging or data rates may apply.</span>
+                </div>
+            </fieldset>
+
+            <fieldset class="pb-1">
+                <label for="password">Password</label>
+                <div class="input-form">
+                    <input type="password" name="password" required>
+                    <span></span>
+                </div>
+            </fieldset>
+
+            <button type="submit"><span class="icon-lock-img"></span> Create Account</button>
+        </form>
+
+        <section>
+            <p>
+                By clicking Create Account, you agree to our <br>
+               <a href="#" class="link">Terms of Service</a> and have read and acknowledge <br>
+                our <a href="#" class="link">Privacy Statement</a>.
+            </p>
+        </section>
+
+        <footer>
+            <p>
+                Invisible reCAPTCHA by Google <a href="#" class="link">Privacy Policy</a> 
+                and <a href="#" class="link">Terms of Use.</a>
+            </p>
+        </footer>
+    </main>
+
+    <footer id="page-footer">
+        <section>
+            <ul>
+                <li><a href="#">Legal</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Security</a></li>
+            </ul>
+        </section>
+        <section id="copy">
+            <p>
+                © 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, 
+                ProConnect and Mint are registered trademarks of Intuit Inc. <br>
+                Terms and conditions, features, support, pricing, and service 
+                options subject to change without notice.
+            </p>
+        </section>
+    </footer>
+
+</body>
+</html>

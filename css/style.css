@@ -1,0 +1,235 @@
+body {
+  background-color: #ECEEF1;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+nav {
+  height: 40px;
+  padding: 10px 30px;
+  display: flex;
+  justify-content: flex-end;
+}
+nav section {
+  display: flex;
+  padding: 0;
+}
+nav section p {
+  margin: 0;
+  font-weight: 400;
+  color: #505050;
+}
+nav section div {
+  margin-left: 10px;
+  font-size: 12px;
+  line-height: 18px;
+}
+nav section button {
+  background-color: #0077C5;
+  border-radius: 4px;
+  color: white;
+  padding: 8px 20px;
+  font-size: 13.5px;
+  border: 1px solid #4c4c4c;
+  cursor: pointer;
+}
+
+.icon-lock-img {
+  height: 1em;
+  width: 0.8em;
+  margin-top: 2px;
+  margin-right: 4px;
+  vertical-align: text-top;
+  display: inline-block;
+  background-image: url(/images/icon-whitelock@3x.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.link {
+  text-decoration: none;
+  color: #0077C5;
+}
+.link:hover {
+  text-decoration: underline;
+}
+
+#icons {
+  padding-bottom: 20px;
+}
+#icons > img {
+  display: block;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+#icons ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+#icons ul li {
+  margin-right: 5px;
+}
+#icons ul a {
+  display: flex;
+}
+#icons ul a > img {
+  margin: 0 2px;
+}
+
+main {
+  padding: 30px;
+  display: block;
+  margin: 0 auto;
+  border: 1px solid #c7c7c7;
+  background-color: #fff;
+  width: 320px;
+}
+main section {
+  text-align: center;
+  margin-top: 40px;
+}
+main section p {
+  font-style: italic;
+  color: #757575;
+  font-size: 12px;
+  line-height: 1.8;
+}
+main footer {
+  background-color: #ECEEF1;
+  margin: 32px -30px -30px;
+  padding: 16px;
+  text-align: center;
+}
+main footer p {
+  font-size: 10px;
+  color: #8d9096;
+}
+
+#header-form {
+  padding-bottom: 20px;
+  text-align: center;
+}
+#header-form section {
+  color: #4c4c4c;
+  padding-bottom: 20px;
+  margin: 0;
+}
+#header-form section h1 {
+  margin: 0;
+  font-size: 24px;
+  line-height: 25px;
+  font-weight: 400;
+}
+#header-form div {
+  color: #4c4c4c;
+  font-size: 14px;
+  line-height: 1.2;
+}
+#header-form div a {
+  font-size: 12px;
+}
+
+form label {
+  color: #404040;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 35px;
+  padding-bottom: 6px;
+}
+form button {
+  width: 100%;
+  height: 44px;
+  border: #0077C5;
+  background-color: #0077C5;
+  color: #fff;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+form button:hover {
+  background: linear-gradient(to bottom, #167CCC 0, #0077C5 100%);
+  cursor: pointer;
+}
+
+.input-form {
+  width: 100%;
+  min-width: 160px;
+  height: 34px;
+  border: 1px solid #C1C5C8;
+  border-radius: 3px;
+  position: relative;
+}
+.input-form input {
+  width: 100%;
+  min-width: 160px;
+  padding-left: 8px;
+  padding-right: 6px;
+  height: 34px;
+  border: none;
+}
+.input-form input:focus {
+  border: 1px solid #52A8EC;
+  outline: 0;
+  border-color: rgba(82, 168, 236, 0.8);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
+}
+.input-form > span {
+  background: url(/images/lock.png) 0 50%/21px 21px no-repeat;
+  width: 33px;
+  position: absolute;
+  right: 1px;
+  height: 32px;
+  top: 1px;
+  bottom: 1px;
+}
+
+.div-span {
+  margin: 5px 0;
+  min-height: 20px;
+}
+.div-span span {
+  padding: 5px 0;
+  font-size: 10px;
+  color: #444;
+}
+
+.pb-1 {
+  padding-bottom: 20px;
+}
+
+.pb-2 {
+  padding-bottom: 10px;
+}
+
+#page-footer {
+  margin: 0 auto;
+  width: 90%;
+  color: #505050;
+  padding: 20px 0;
+}
+#page-footer ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+#page-footer ul li {
+  margin-right: 10px;
+}
+#page-footer ul li a {
+  text-decoration: none;
+  font-size: 12px;
+  color: #505050;
+}
+#page-footer #copy {
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.5;
+}
+#page-footer #copy p {
+  margin: 0;
+}
+
+/*# sourceMappingURL=style.css.map */
