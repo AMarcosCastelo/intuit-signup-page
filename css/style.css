@@ -6,10 +6,16 @@ body {
 nav {
   height: 40px;
   padding: 10px 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 nav section {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   padding: 0;
 }
@@ -34,13 +40,13 @@ nav section button {
 }
 
 .icon-lock-img {
-  height: 1em;
-  width: 0.8em;
+  height: 13.5px;
+  width: 10.7969px;
   margin-top: 2px;
   margin-right: 4px;
   vertical-align: text-top;
   display: inline-block;
-  background-image: url(/images/icon-whitelock@3x.png);
+  background-image: url(../images/icon-whitelock@3x.png);
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -65,13 +71,19 @@ nav section button {
   margin: 0;
   padding: 0;
   list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 #icons ul li {
   margin-right: 5px;
 }
 #icons ul a {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 #icons ul a > img {
@@ -148,6 +160,9 @@ form button {
   margin-top: 10px;
 }
 form button:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #167CCC), to(#0077C5));
+  background: -webkit-linear-gradient(top, #167CCC 0, #0077C5 100%);
+  background: -o-linear-gradient(top, #167CCC 0, #0077C5 100%);
   background: linear-gradient(to bottom, #167CCC 0, #0077C5 100%);
   cursor: pointer;
 }
@@ -172,10 +187,11 @@ form button:hover {
   border: 1px solid #52A8EC;
   outline: 0;
   border-color: rgba(82, 168, 236, 0.8);
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
+          box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
 }
 .input-form > span {
-  background: url(/images/lock.png) 0 50%/21px 21px no-repeat;
+  background: url(../images/lock.png) 0 50%/21px 21px no-repeat;
   width: 33px;
   position: absolute;
   right: 1px;
@@ -209,8 +225,12 @@ form button:hover {
   padding: 20px 0;
 }
 #page-footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   list-style: none;
   padding-left: 0;
   margin: 0;
@@ -231,5 +251,3 @@ form button:hover {
 #page-footer #copy p {
   margin: 0;
 }
-
-/*# sourceMappingURL=style.css.map */
