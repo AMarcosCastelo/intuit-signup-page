@@ -46,8 +46,8 @@ nav section button {
   margin-right: 4px;
   vertical-align: text-top;
   display: inline-block;
-  background-image: url(/images/icon-whitelock@3x.png);
-  background-size: contain;
+  background-image: url(../images/icon-whitelock@3x.png);
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
