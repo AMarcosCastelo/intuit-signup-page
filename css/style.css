@@ -46,7 +46,7 @@ nav section button {
   margin-right: 4px;
   vertical-align: text-top;
   display: inline-block;
-  background-image: url(../images/icon-whitelock@3x.png);
+  background-image: url(../images/icon-whitelock.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -191,7 +191,7 @@ form button:hover {
           box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
 }
 .input-form > span {
-  background: url(/images/lock.png) 0 50%/21px 21px no-repeat;
+  background: url(../images/lock.png) 0 50%/21px 21px no-repeat;
   width: 33px;
   position: absolute;
   right: 1px;
